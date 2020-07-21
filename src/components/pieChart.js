@@ -1,9 +1,6 @@
 import React,{ Component } from 'react';
-import ReactDOM from 'react-dom';
 import {
   VictoryPie, 
-  VictoryChart,
-  VictoryLabel
 } from "victory";
 
 class App extends Component {
