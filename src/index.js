@@ -7,7 +7,6 @@ import {
   BrowserRouter,
   Switch,
   Route,
-  Redirect,
 } from 'react-router-dom';
 
 
@@ -18,5 +17,5 @@ ReactDOM.render(
                 <Route path="/" component={Iframe_pie}  />
           </Switch>
   </BrowserRouter>,
-  
+
 document.getElementById('root'));

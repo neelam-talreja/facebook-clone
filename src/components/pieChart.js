@@ -1,9 +1,7 @@
 import React,{ Component } from 'react';
-import {
-  VictoryPie, 
-} from "victory";
+import { VictoryPie } from "victory";
 
-class App extends Component {
+class pieChart extends Component {
   constructor() {
     super();
     this.state = {
@@ -36,4 +34,4 @@ class App extends Component {
  }
 }
 
-export default App;
+export default pieChart;
