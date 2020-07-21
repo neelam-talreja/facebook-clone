@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import pieChart from './components/pieChart.js'
+import Iframe_pie from './components/iframe.js'
 import * as serviceWorker from './serviceWorker';
 import {
   BrowserRouter,
@@ -14,9 +15,9 @@ import {
 
 ReactDOM.render(
   <BrowserRouter>
-          {/* All children of a <Switch> should be <Route> or <Redirect> elements. */}
           <Switch>
-                <Route path="/" component={pieChart} exact />
+                <Route path="/pie-chart" component={pieChart}  />
+                <Route path="/" component={Iframe_pie}  />
           </Switch>
   </BrowserRouter>,
 document.getElementById('root'));

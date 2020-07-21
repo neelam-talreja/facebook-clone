@@ -25,11 +25,11 @@ class App extends Component {
     <>
         <VictoryPie
           data={this.state.data}
-          height={160}
+          height={260}
           colorScale={["tomato", "orange", "gold", "cyan", "navy" ]}
           style={{
             labels: {
-              fontSize: 6
+              fontSize: 14
             }
           }}
         />
