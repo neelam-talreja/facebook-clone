@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import pieChart from './components/pieChart.js'
-import Iframe_pie from './components/iframe.js'
+import Facebook from './components/Facebook';
+import Login from './components/Login'
 import {
   BrowserRouter,
   Switch,
@@ -13,8 +13,8 @@ import {
 ReactDOM.render(
   <BrowserRouter>
           <Switch>
-                <Route path="/pie-chart" component={pieChart}  />
-                <Route path="/" component={Iframe_pie}  />
+                <Route exact path="/facebook" component={Facebook}  />
+                <Route path="/" component={Login}  />
           </Switch>
   </BrowserRouter>,
 
