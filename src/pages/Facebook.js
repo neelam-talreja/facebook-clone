@@ -1,9 +1,9 @@
 import React from 'react';
-import '../Facebook.css';
-import Header from './Header';
-import Sidebar from './Sidebar';
-import Feed from './Feed';
-import  Widget from './Widgets';
+import '../styles/Facebook.css';
+import Header from '../components/Header';
+import Sidebar from '../components/Sidebar';
+import Feed from '../components/Feed';
+import  Widget from '../components/Widgets';
 
 function Facebook() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../MessageSender.css'
+import '../styles/MessageSender.css'
 import { Avatar } from '@material-ui/core';
 import { Videocam, PhotoLibrary, InsertEmoticon } from '@material-ui/icons';
 

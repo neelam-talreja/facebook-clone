@@ -8,7 +8,7 @@ import {
   VideoLibrary,
 } from '@material-ui/icons';
 import SidebarRow from './SidebarRow';
-import '../sidebar.css'
+import '../styles/sidebar.css'
 
 
 function Sidebar() {

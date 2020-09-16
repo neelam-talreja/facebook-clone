@@ -7,9 +7,9 @@ import {
     Typography,
     Link,
 } from "@material-ui/core";
-import '../LoginForm.css'
+import '../styles/LoginForm.css'
 
-import Lottie from './Lottie';
+import Lottie from '../components/Lottie';
 
 class Login extends React.Component {
     constructor(props) {

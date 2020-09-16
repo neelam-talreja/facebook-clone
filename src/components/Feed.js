@@ -1,6 +1,6 @@
 import React from 'react'
 import StoryReel from './StoryReel';
-import '../Feed.css';
+import '../styles/Feed.css';
 import MessageSender from './MessageSender';
 import Post from './Post';
 

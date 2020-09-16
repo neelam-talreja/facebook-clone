@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import Lottie from 'react-lottie';
 import animationData from '../31140-success.json';
-import '../Lottie.css';
+import '../styles/Lottie.css';
 
 class App extends Component {
 

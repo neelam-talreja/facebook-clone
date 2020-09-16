@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Facebook from './components/Facebook';
-import Login from './components/Login'
+import Facebook from './pages/Facebook';
+import Login from './pages/Login'
 import {
   BrowserRouter,
   Switch,
