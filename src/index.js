@@ -14,7 +14,7 @@ ReactDOM.render(
   <BrowserRouter>
           <Switch>
                 <Route exact path={process.env.PUBLIC_URL + '/'} component={Login}  />
-                <Route exact path={process.env.PUBLIC_URL + '/facebook'} component={Facebook}  />
+                <Route path={process.env.PUBLIC_URL + '/facebook'} component={Facebook}  />
           </Switch>
   </BrowserRouter>,
 
