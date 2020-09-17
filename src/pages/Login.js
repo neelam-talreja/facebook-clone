@@ -28,7 +28,7 @@ class Login extends React.Component {
             window.setTimeout(function(){
 
                 // Move to a new location or you can do something else
-                 window.location.href = '/facebook';
+                 window.location.href = '/facebook-clone/facebook';
          
              }, 4000);
         } else {
