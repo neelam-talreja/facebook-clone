@@ -11,10 +11,10 @@ import {
 
 
 ReactDOM.render(
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
+  <BrowserRouter>
           <Switch>
-                <Route exact path="/" component={Login}  />
-                <Route exact path="/facebook" component={Facebook}  />
+                <Route exact path={process.env.PUBLIC_URL + '/'} component={Login}  />
+                <Route exact path={process.env.PUBLIC_URL + '/facebook'} component={Facebook}  />
           </Switch>
   </BrowserRouter>,
 
