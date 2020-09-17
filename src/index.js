@@ -13,8 +13,8 @@ import {
 ReactDOM.render(
   <BrowserRouter>
           <Switch>
+                <Route exact path="/" component={Login}  />
                 <Route exact path="/facebook" component={Facebook}  />
-                <Route path="/" component={Login}  />
           </Switch>
   </BrowserRouter>,
 
