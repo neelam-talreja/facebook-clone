@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "54f54c70e64b5d0e7931a7a93b8e2343",
+    "revision": "098bcc0d00bc46ab57f9e576ad5a0ef0",
     "url": "/facebook-clone/index.html"
   },
   {
-    "revision": "749590f5ed36288539aa",
+    "revision": "712ec9efba91179cd4ed",
     "url": "/facebook-clone/static/css/main.06bbe13c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/facebook-clone/static/js/2.cf25dbf0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "749590f5ed36288539aa",
-    "url": "/facebook-clone/static/js/main.c5518ee0.chunk.js"
+    "revision": "712ec9efba91179cd4ed",
+    "url": "/facebook-clone/static/js/main.399dc3e1.chunk.js"
   },
   {
     "revision": "8d9db31eeef904c1dc55",
