@@ -7,7 +7,7 @@ import {
     Typography,
     Link,
 } from "@material-ui/core";
-import '../styles/LoginForm.css'
+import '../styles/LoginForm.css';
 
 import Lottie from '../components/Lottie';
 
@@ -28,7 +28,7 @@ class Login extends React.Component {
             window.setTimeout(function(){
 
                 // Move to a new location or you can do something else
-                 window.location.href = 'facebook-clone/facebook';
+                 window.location.href = '/facebook';
          
              }, 4000);
         } else {
